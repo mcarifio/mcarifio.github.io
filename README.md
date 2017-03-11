@@ -3,6 +3,19 @@ layout: post
 title: Mike@Carif.io's Blog
 ---
 
-This must be the intro. Wonder where it goes?
+
+{% for post in site.posts %}
+
+<article class='post'>
+  <h1 class='post-title'>
+    <a href="{{ site.path }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h1>
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  {{ post.content }}
+</article>
+
+{% endfor %}
 
 
