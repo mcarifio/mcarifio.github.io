@@ -1,4 +1,6 @@
-# Mike Carifio's blog
+---
+layout: post
+title: Mike@Carif.io's Blog
+---
 
-yakkety yak yak
 
